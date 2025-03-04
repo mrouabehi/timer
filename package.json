@@ -1,27 +1,28 @@
 {
-	"name": "@mrouabehi/timer",
-	"version": "0.1.0",
-	"description": "A timer directly in your terminal.",
-	"keywords": ["cli", "timer"],
-	"homepage": "https://github.com/mrouabehi/timer",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/mrouabehi/timer"
-	},
-	"bugs": {
-		"url": "https://github.com/mrouabehi/timer/issues"
-	},
-	"author": {
-		"name": "mrouabehi",
-		"email": "contact@mrouabehi.me",
-		"url": "https://mrouabehi.me"
-	},
-	"module": "src/index.ts",
-	"type": "module",
-	"devDependencies": {
-		"@types/bun": "latest"
-	},
-	"peerDependencies": {
-		"typescript": "^5.0.0"
-	}
+    "name": "@mrouabehi/timer",
+    "version": "0.1.0",
+    "description": "A timer directly in your terminal.",
+    "keywords": ["cli", "timer"],
+    "homepage": "https://github.com/mrouabehi/timer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mrouabehi/timer"
+    },
+    "bugs": {
+        "url": "https://github.com/mrouabehi/timer/issues"
+    },
+    "author": {
+        "name": "mrouabehi",
+        "email": "contact@mrouabehi.me",
+        "url": "https://mrouabehi.me"
+    },
+    "module": "src/index.ts",
+    "type": "module",
+    "devDependencies": {
+        "@biomejs/biome": "1.9.4",
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    }
 }
